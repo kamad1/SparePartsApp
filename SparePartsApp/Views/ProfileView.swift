@@ -8,8 +8,41 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @StateObject var viewModel = ProfileViewModel()
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Image(systemName: "person")
+                    .frame(maxWidth: 100, maxHeight: 100)
+                    .background(.gray)
+                    .clipShape(Circle())
+                    .contextMenu(menuItems: {
+                        Button("Delete") {
+                            
+                        }
+                        Button("Edite") {
+                            
+                        }
+                    })
+                Spacer()
+                VStack{
+                    Text(viewModel.profile.fullName)
+                    Text(viewModel.profile.address)
+                    
+                    
+                }
+                
+                
+                
+            }
+            .padding()
+            
+            List {
+                Text(viewModel.profile.name)
+                
+            }
+        }
     }
 }
 

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		81A909162C216AE20053BFC8 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909152C216AE20053BFC8 /* GroupModel.swift */; };
+		81A909182C21791C0053BFC8 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909172C21791C0053BFC8 /* SearchViewModel.swift */; };
+		81A9091A2C217CBF0053BFC8 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A909192C217CBF0053BFC8 /* ProductModel.swift */; };
+		81A9091C2C217E9E0053BFC8 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9091B2C217E9E0053BFC8 /* ProfileModel.swift */; };
+		81A9091E2C218DF40053BFC8 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A9091D2C218DF40053BFC8 /* ProfileViewModel.swift */; };
 		81C02EC52C0376E1003201F1 /* SparePartsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C02EC42C0376E1003201F1 /* SparePartsAppApp.swift */; };
 		81C02EC72C0376E1003201F1 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C02EC62C0376E1003201F1 /* StartView.swift */; };
 		81C02EC92C0376E2003201F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C02EC82C0376E2003201F1 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 
 /* Begin PBXFileReference section */
 		81A909152C216AE20053BFC8 /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		81A909172C21791C0053BFC8 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		81A909192C217CBF0053BFC8 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		81A9091B2C217E9E0053BFC8 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		81A9091D2C218DF40053BFC8 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		81C02EC12C0376E1003201F1 /* SparePartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparePartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C02EC42C0376E1003201F1 /* SparePartsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparePartsAppApp.swift; sourceTree = "<group>"; };
 		81C02EC62C0376E1003201F1 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -115,6 +123,8 @@
 		81F047082C0388BC00117B00 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81A9091B2C217E9E0053BFC8 /* ProfileModel.swift */,
+				81A909192C217CBF0053BFC8 /* ProductModel.swift */,
 				81F047092C0388D200117B00 /* BrandsModel.swift */,
 				81A909152C216AE20053BFC8 /* GroupModel.swift */,
 			);
@@ -125,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				81F0470C2C038ADC00117B00 /* MainViewModel.swift */,
+				81A909172C21791C0053BFC8 /* SearchViewModel.swift */,
+				81A9091D2C218DF40053BFC8 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,17 +211,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A9091C2C217E9E0053BFC8 /* ProfileModel.swift in Sources */,
 				81C02EDB2C037E42003201F1 /* InfoCompanyView.swift in Sources */,
 				81C02ED72C037C0F003201F1 /* SearchView.swift in Sources */,
 				81F047072C03887700117B00 /* GroupView.swift in Sources */,
 				81C02ED52C037B64003201F1 /* ProfileView.swift in Sources */,
 				81C02ED92C037C9E003201F1 /* CartView.swift in Sources */,
+				81A9091A2C217CBF0053BFC8 /* ProductModel.swift in Sources */,
+				81A909182C21791C0053BFC8 /* SearchViewModel.swift in Sources */,
 				81A909162C216AE20053BFC8 /* GroupModel.swift in Sources */,
 				81F0470A2C0388D200117B00 /* BrandsModel.swift in Sources */,
 				81C02EDF2C038780003201F1 /* BrendsView.swift in Sources */,
 				81C02EC72C0376E1003201F1 /* StartView.swift in Sources */,
 				81C02ED32C0377C8003201F1 /* MainView.swift in Sources */,
 				81C02EC52C0376E1003201F1 /* SparePartsAppApp.swift in Sources */,
+				81A9091E2C218DF40053BFC8 /* ProfileViewModel.swift in Sources */,
 				81F0470D2C038ADC00117B00 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

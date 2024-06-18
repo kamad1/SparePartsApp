@@ -7,10 +7,14 @@
 
 import Foundation
 
-struct BrandsModel: Identifiable, Hashable {
+class BrandsModel: Identifiable {
     var id = UUID().uuidString
     var name: String
 
+    init(name: String) {
+
+        self.name = name
+    }
     
     static var mockData: [BrandsModel] = [
         .init(name: "BMW"),
