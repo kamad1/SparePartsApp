@@ -10,8 +10,12 @@ import SwiftUI
 @main
 struct SparePartsAppApp: App {
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
+           
+                StartView()
+     
+            
         }
     }
 }
